@@ -8,7 +8,7 @@ import {
 } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { GoLocation } from 'react-icons/go';
+import { GoLocation } from "react-icons/go";
 
 function Footer() {
   return (
@@ -21,7 +21,7 @@ function Footer() {
           <p className="text-white text-sm tracking-wide">@ Vsingh.com</p>
           <img
             className="w-60"
-            src="../../public/assets/payment-method.png"
+            src="../assets/payment-method.png"
             alt="paymentLogo"
           />
           <div className="flex gap-8 text-2xl text-gray-500">
@@ -73,9 +73,14 @@ function Footer() {
         </div>
         {/* Subscribe start here */}
         <div className="flex flex-col justify-center">
-          <input className="bg-transparent border px-4 py-2 text-sm"
-            placeholder="email" type="text" />
-          <button className="text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black">Subscribe</button>
+          <input
+            className="bg-transparent border px-4 py-2 text-sm"
+            placeholder="email"
+            type="text"
+          />
+          <button className="text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black">
+            Subscribe
+          </button>
         </div>
       </div>
     </div>

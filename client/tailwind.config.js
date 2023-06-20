@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        bodyFont:"Poppins",
-      }
+        bodyFont: "Poppins",
+      },
     },
   },
   plugins: [],

@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import ProductsCard from "./ProductsCard";
-import PropTypes from "prop-types";
+
 
 function Products({ products } ) {
   // console.log(products);
